@@ -11,7 +11,12 @@
  	    // var target = event.target
  	    // log("event",event)
  	    starshine();
- 	    event.srcElement.classList.add('hei');
+         var a = event.srcElement.childElementCount
+         // log(a)
+         if( a < 1){
+            event.target.parentNode.classList.add('hei');
+         }
+ 	      event.target.classList.add('hei');
  	    // event.path[0].classList.remove('hei');
  	    
  	    })
@@ -47,7 +52,7 @@
  		for(let i = 0; i < 30; i++ ){
  		let n = Math.floor((Math.random()*100)%100)
  		let m = Math.floor((Math.random()*100)%100) 		
- 		log(m,n)
+ 		// log(m,n)
  		var div = document.createElement("div");
  		div.id = "t-" + n + "-l-" + m + "";
  		div.innerHTML = "";
