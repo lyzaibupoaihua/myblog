@@ -1,0 +1,21 @@
+ .mainbody{
+ 	height:50px;
+ 	margin-top: 20px;
+ 	max-width:90%;
+ }
+ header{
+ 	margin-bottom: 50px
+ 	border-bottom:line;
+ }
+
+ p{
+ 	text-align: left;
+ 	/*padding-top: 20px*/
+ }
+ #first-blog{
+ 	text-align:left;
+ 	height:300px
+ }
+ #second-blog{
+ 	height:500px;
+ }
